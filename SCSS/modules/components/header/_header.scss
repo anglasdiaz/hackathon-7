@@ -1,0 +1,28 @@
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo{
+        width: 40px;
+        height: 40px;
+        margin-left: 20px;
+    }
+    &__menu{
+        flex:0.6;
+    }
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        font-size: $m;
+    }
+    &__listitem{
+        list-style-type: none;
+    }
+    &__listitem:nth-child(1){
+        color:$second-color;
+    }
+    &__link{
+        text-decoration: none;
+        color:inherit;
+    }
+}

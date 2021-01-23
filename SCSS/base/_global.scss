@@ -1,6 +1,6 @@
 //paleta de colores
 $first-color: #000000;
-$secod-color: #1F3F68;
+$second-color: #1F3F68;
 $third-color: #FFFFFF;
 $four-color: #356EAD;
 $fifth-color: #356EAD;
@@ -15,16 +15,27 @@ $fifth-color: #356EAD;
 }
 
 $xll: 44px;
-$xl: 36px;
+$xl: 32px;
 $l: 22px;
 $m: 20px;
 $xm:18px;
 $s:16px;
 $xs:14px;
 // line height
+.lhxl{
+    line-height: 38px;
+}
+.lhl{
+    line-height: 30px;
+}
 .lhs{
     line-height: 24px;
 }
 .lgm{
     line-height: 26px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }

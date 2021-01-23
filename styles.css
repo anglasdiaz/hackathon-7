@@ -6,12 +6,25 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.lhxl {
+  line-height: 38px;
+}
+
+.lhl {
+  line-height: 30px;
+}
+
 .lhs {
   line-height: 24px;
 }
 
 .lgm {
   line-height: 26px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -355,5 +368,82 @@ template {
    */
 [hidden] {
   display: none;
+}
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-header__logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.main-header__menu {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+}
+
+.main-header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 20px;
+}
+
+.main-header__listitem {
+  list-style-type: none;
+}
+
+.main-header__listitem:nth-child(1) {
+  color: #1F3F68;
+}
+
+.main-header__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  height: 400px;
+}
+
+.blog-section__bg {
+  text-align: center;
+  width: 60%;
+}
+
+.blog-section__h1 {
+  font-size: 32px;
+  letter-spacing: 0.4em;
+  color: #FFFFFF;
+}
+
+.blog-section__p {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.78);
 }
 /*# sourceMappingURL=styles.css.map */
