@@ -1,0 +1,56 @@
+.popular-section__tittle{
+    font-size: $m;  
+    color: $four-color;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    & h4{
+        width: 75%;
+    }
+}
+.popular-section{
+    display: flex;
+    justify-content: center;
+    &__main{
+        width: 75%;
+        display: flex;
+        justify-content: center;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+    &__img{
+        height: 370px;
+        width: 400px;
+    }
+    &__contentTittle{
+        font-size:$xl;
+        color:$four-color;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    &__contentParagraph{
+        text-align: left;   
+    }
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__footerIcon1{
+        height: 30px;
+        width: 30px;
+    }
+    &__footerIcon2{
+        height: 30px;
+        width: 30px;
+    }
+    &__footerInfo{
+        display: flex;
+        flex-direction: column;
+    }
+}

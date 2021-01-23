@@ -2,7 +2,7 @@
 $first-color: #000000;
 $second-color: #1F3F68;
 $third-color: #FFFFFF;
-$four-color: #356EAD;
+$four-color: #1F3F68;
 $fifth-color: #356EAD;
 
 // font
@@ -38,4 +38,22 @@ $xs:14px;
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.footericon{
+    height: 30px;
+    width: 30px;
+}
+.footermain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerinfo{
+    display: flex;
+    flex-direction: column;
+}
+.leastImg{
+    height: 200px;
+    width: 275px;
 }

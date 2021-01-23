@@ -15,10 +15,10 @@
         justify-content: space-around;
         font-size: $m;
     }
-    &__listitem{
+    &__listItem{
         list-style-type: none;
     }
-    &__listitem:nth-child(1){
+    &__listItem:nth-child(1){
         color:$second-color;
     }
     &__link{

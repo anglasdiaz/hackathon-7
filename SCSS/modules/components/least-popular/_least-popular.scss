@@ -1,0 +1,13 @@
+.least-popular{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    &__items{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__firstItem, &__secondItem,&__thirdItem{
+        width: 275px;
+    }
+}
